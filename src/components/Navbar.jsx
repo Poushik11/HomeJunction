@@ -34,7 +34,7 @@ function Navbar() {
               Explore
             </p>
           </li>
-          <li className="navbarListItem" onClick={() => navigate("/offers")}>
+          <li className="navbarListItem" onClick={() => navigate("/offer")}>
             <OfferIcon
               fill={pathMatchRoute("/offers") ? "#2c2c2c" : "#8f8f8f"}
               width="36px"
