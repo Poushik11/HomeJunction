@@ -819,3 +819,70 @@ button {
   font-size: 0.8rem;
   opacity: 0.75;
 }
+
+.site-header {
+  font-family: cursive;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01);
+
+  transition: all 0.3s ease;
+}
+
+.site-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 5px;
+  /* border-radius: 50%; */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.03); */
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.site-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  color: #083c73;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    padding: 15px;
+  }
+
+  .site-logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+
+  .site-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-header {
+    /* flex-direction: column; */
+    text-align: center;
+    padding: 10px;
+  }
+
+  .site-logo {
+    width: 40px;
+    height: 40px;
+    flex: center;
+    margin: 0 0 10px 0;
+  }
+
+  .site-title {
+    font-size: 1.5rem;
+  }
+}
