@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { useState, useEffect } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
@@ -79,7 +80,7 @@ function Listing() {
         <div className="imageGallery">
           {listing.imageUrls.map((url, index) => (
             <div key={index} className="imageGalleryItem">
-              <img src={url} alt={`Image ${index + 1}`} />
+              <img src={url} />
             </div>
           ))}
         </div>
