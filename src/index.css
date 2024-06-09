@@ -289,11 +289,11 @@ button {
 }
 
 .registerLink {
-  margin-top: 4rem;
+  margin-top: 1rem;
   color: #00cc66;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 15vh;
 }
 
 @media (min-width: 1217px) {
@@ -373,6 +373,7 @@ button {
 .exploreCategories {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 15vh;
 }
 .exploreCategories a {
   width: 48%;

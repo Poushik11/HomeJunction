@@ -63,9 +63,9 @@ function SignUp() {
   return (
     <>
       <div className="pageContainer">
-        <header>
+        {/* <header>
           <p className="pageHeader">Welcome Back!</p>
-        </header>
+        </header> */}
 
         <form onSubmit={onSubmit}>
           <input
@@ -116,7 +116,6 @@ function SignUp() {
         </form>
 
         <OAuth />
-
         <Link to="/sign-in" className="registerLink">
           Sign In Instead
         </Link>
