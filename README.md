@@ -1,3 +1,7 @@
+image:
+
+![image](https://github.com/Poushik11/HomeJunction/assets/115363626/aaf61e57-51cc-4df4-be43-53400f113220)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
